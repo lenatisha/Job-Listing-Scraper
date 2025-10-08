@@ -26,5 +26,5 @@ The scraped data is automatically saved as a CSV file for easy access and analys
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/job-scraper.git
+   git clone https://github.com/lenatisha/Job-Listing-Scraper.git
    cd Job Listing Scraper

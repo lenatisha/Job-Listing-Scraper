@@ -1,24 +1,30 @@
-# 💼 Job Listing Scraper
+# 🕵️‍♂️ Job Scraper – Fake Jobs Web Scraping Project
 
-A Python-based **web scraping project** that automatically collects job listings (title, company, location, and apply link) from an online job board.  
-This project demonstrates **data extraction, automation, and file handling** using `BeautifulSoup`, `Requests`, and `Pandas`.
-
----
-
-## 🚀 Features
-
-- 🧠 Scrapes job titles, companies, and locations  
-- 🔗 Extracts direct "Apply" links  
-- 🕒 Adds a timestamp for when each job was scraped  
-- 💾 Exports all results into a **CSV file**  
-- 🧰 Automatically creates a `data/` folder for storage  
+A simple Python web scraping project that extracts job listings (title, company, location, and application link) from the [Real Python Fake Jobs](https://realpython.github.io/fake-jobs/) website.  
+The scraped data is automatically saved as a CSV file for easy access and analysis.
 
 ---
 
-## 🧰 Tech Stack
+## 📋 Features
+- Scrapes job listings dynamically from a website.  
+- Extracts **job title**, **company name**, **location**, and **apply link**.  
+- Saves all data to a CSV file with timestamps.  
+- Automatically creates a `data` folder if it doesn’t exist.  
 
-| Tool | Purpose |
-|------|----------|
-| **Python 3** | Main programming language |
-| **Requests** | Fetches web pages |
-| **Beautif**
+---
+
+## 🧰 Technologies Used
+- **Python 3**  
+- **Requests** – to fetch the HTML page.  
+- **BeautifulSoup (bs4)** – to parse and extract job details.  
+- **Pandas** – to organize and export data to CSV.  
+- **Datetime & OS** – for timestamps and file handling.  
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/job-scraper.git
+   cd Job Listing Scraper
